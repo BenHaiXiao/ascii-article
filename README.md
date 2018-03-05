@@ -10,6 +10,16 @@
 2. Markdown编辑
 3. Html编辑，（写了一个模型）
 
+## 模型简介
+
+一篇文章的组成 Article ,主要有标题title，作者author，创建时间createTime，段落Paragraph组成，
+段落具有多样性，可能为列表，可能为图文，可能为其他。。。。。。
+目前段落抽象为如下：
+1. 有序列表 OrderedList 
+2. 表格  Table
+3. 文本，Text ，支持6级标题和正文
+4. 无序列表 UnorderedList
+
 
 ##  初期效果 
    ![](http://empfs.bs2dl.yy.com/bWQtMTUyMDIyOTg1NTk2MjhfMTUyMDIyOTg1NTk2Mg.png)  
